@@ -1,0 +1,35 @@
+name: feature_finder
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - python
+  - matplotlib
+  - nodejs
+  - xarray
+  - jupyterlab
+  - netcdf4
+  - pandas
+  - ipympl
+  - numpy < 2.0
+  - scikit-learn
+  - scipy
+  - h5py
+  - cython
+  - pyproj
+  - gdal
+  - cartopy
+  - geopandas
+  - rasterio
+  - descartes
+  - python-docx
+  - sliderule
+  - openpyxl
+  - tabulate
+  - imageio
+  - proj
+  - pip
+  - pip:
+     - git+https://github.com/SmithB/pointCollection.git
+     
